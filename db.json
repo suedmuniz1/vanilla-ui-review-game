@@ -1,0 +1,11 @@
+{
+  "games": [
+    {
+      "title": "FIFA 22",
+      "genre": "Sport",
+      "score": "95",
+      "description": "A good game, with good graphics and an interesting gameplay.",
+      "id": 1
+    }
+  ]
+}

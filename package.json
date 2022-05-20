@@ -1,0 +1,25 @@
+{
+  "name": "vanilla-ui-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3005",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./",
+    "json:server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "@babel/runtime-corejs2": "^7.17.11",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "json-server": "^0.17.0"
+  }
+}
