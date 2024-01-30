@@ -4,7 +4,7 @@
 
 This project was created for completing the optional assignment of the 'UI essentials - Vanilla UI' course.
 
-## Steps for running the project
+## Steps to run the project
 
 **In order to install all the dependencies used on the project, run**:
 
